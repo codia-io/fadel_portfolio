@@ -48,7 +48,7 @@ body{
 .vl {
     border-left: 6px solid green;
     height: 500px;
-  }
+}
 .bg-coffee{
     background: url("../img/coffee.jpg") repeat 0 0;
     background-size: cover;
@@ -87,4 +87,36 @@ body{
     background: rgb(252,4,255);
     background: linear-gradient(135deg, rgba(252,4,255,1) 0%, rgba(71,73,87,1) 100%);
     border-radius: 0 10px 10px 0;
+}
+.timeline{
+    height: 300px;
+    /*margin-left: 20px;*/
+}
+.timeline-title{
+    color: white;
+    height: 20%;
+    background: rgb(252,4,255);
+    background: linear-gradient(225deg, rgba(252,4,255,1) 0%, rgba(71,73,87,1) 100%);
+    display: flex;
+    border-radius: 10px 10px 0 0;
+    border: black solid 3px;
+}
+.timeline-time{
+    color: white;
+    height: 20%;
+    background: rgb(252,4,255);
+    background: linear-gradient(90deg, rgba(252,4,255,1) 0%, rgba(71,73,87,1) 100%);
+    display: flex;
+    border-left: black solid 3px;
+    border-right: black solid 3px;
+    border-bottom: black solid 3px;
+}
+.timeline-content{
+    padding: 15px;
+    height: 60%;
+    background-color: #dbdbdb;
+    border-radius: 0 0 10px 10px;
+    border-left: black solid 3px;
+    border-right: black solid 3px;
+    border-bottom: black solid 3px;
 }
