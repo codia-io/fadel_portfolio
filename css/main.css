@@ -67,4 +67,16 @@ body{
     transform: scale(1.1);
     transition-duration: 0.20s;
 }
-
+.no-padding{
+        padding: 0 !important;
+}
+.smallbox{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 250px;
+    background-color: #dbdbdb;
+}
+.bigbox{
+    background-color: #474957;
+    border-radius: 10px 0 0 10px;
+}
