@@ -1,14 +1,17 @@
 body{
     /*background-color : #ededed ;*/
-    background: url("../img/bg.jpg") repeat 0 0;
-    background-size: cover;
+    /*background: url("../img/bg.jpg") repeat 0 0;
+    background-size: cover;*/
+    background: linear-gradient(270deg, #e601e3, #029bcd, #e601e3);
+    background-size: 600% 600%;
+    font-family: 'Cabin', sans-serif;
 }
 .nv1{
 /*  background-color: rgb(143,143,252);
     background: linear-gradient(90deg, rgba(143,143,252,1) 0%, rgba(252,4,255,1) 100%, rgba(117,20,99,1) 100%); 
     height: 100px;*/
-    background: linear-gradient(270deg, #e601e3, #029bcd, #e601e3);
-    background-size: 600% 600%;
+    
+    background-color: transparent;
 }
 .nlink{
     color: white;
@@ -123,8 +126,10 @@ body{
 .emptycol{
     display:none;
 }
-@media screen and (min-width: 768px) {
-    .emptycol {
-        display: block;
+
+@media only screen and (max-width: 992px) {
+    h4{
+        font-size: 1em ;
+        font-weight: bolder;
     }
 }
